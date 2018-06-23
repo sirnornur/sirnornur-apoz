@@ -18,7 +18,7 @@ mvn clean package
 This creates a file `target/quote.jar`.
 Run that `jar` file using `JRE v1.8` and provide the arguments:
 ```
-java -jar samples/input.csv 1000
+java -jar target/quote.jar samples/input.csv 1000
 ```
 
 ### Further improvements
